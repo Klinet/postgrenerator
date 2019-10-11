@@ -12,10 +12,7 @@
     "autoload": {
         "psr-4": {
             "Akali\\Postgrenerator\\": "src/"
-        },
-        "files": [
-            "src/helpers.php"
-        ]
+        }
     },
     "scripts": {
         "post-install-cmd": [
