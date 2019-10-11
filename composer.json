@@ -1,0 +1,40 @@
+{
+    "name": "akali/postgrenerator",
+    "description": "Laravel abstraction generator from postgres db",
+    "type": "library",
+    "require": {
+        "laravel/framework": "6.0.*",
+        "php": "^7.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.5@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Akali\\Postgrenerator\\": "src/"
+        }
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "composer dump-autoload"
+        ],
+        "post-update-cmd": [
+            "composer dump-autoload"
+        ]
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Attila Kali",
+            "email": "akali.klinet@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Akali\\Postgrenerator\\Providers"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}
