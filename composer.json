@@ -3,7 +3,7 @@
     "description": "Laravel abstraction generator from postgres db",
     "type": "library",
     "require": {
-        "laravel/framework": "6.0.*",
+        "illuminate/support": "5.7.*",
         "php": "^7.3"
     },
     "require-dev": {
@@ -12,7 +12,10 @@
     "autoload": {
         "psr-4": {
             "Akali\\Postgrenerator\\": "src/"
-        }
+        },
+        "files": [
+            "src/helpers.php"
+        ]
     },
     "scripts": {
         "post-install-cmd": [
