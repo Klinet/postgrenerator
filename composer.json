@@ -3,7 +3,7 @@
     "description": "Laravel abstraction generator from postgres db",
     "type": "library",
     "require": {
-        "illuminate/support": "5.7.*",
+        "illuminate/support": "6.2.0",
         "php": "^7.3"
     },
     "require-dev": {
